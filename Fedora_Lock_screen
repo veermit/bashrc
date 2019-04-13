@@ -1,0 +1,21 @@
+display manager problem
+
+
+yum install gdm
+systemctl disable --force sddm.service
+systemctl disable --force sddm
+systemctl enable --force gdm.service
+systemctl enable --force gdm
+
+
+
+.bashrc (root not able to login)
+from .bash_profile removed if condition for invoking .bash_profile
+instead of .bash_alias gave .bash_profile
+
+blank screen 
+ctrl+F2 or any key Fx
+goto root and do whatever you want
+blank screen basically display manager issue
+
+
