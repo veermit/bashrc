@@ -1,0 +1,25 @@
+
+
+1) Install SSH server
+Install SSH
+  sudo apt-get install openssh-server
+Enable SSH
+  sudo systemctl enable ssh
+Start SSh
+  sudo systemctl start ssh
+Allow firewall
+  sudo ufw allow ssh
+Enable SSH on firewall
+  sudo ufw enable
+
+2) Install ifconfig tool
+Instal ifconfig tool
+  sudo apt install net-tools
+
+3) Install remote desktop
+Install RDP software
+  sudo apt install xrdp
+Enable RDP
+  sudo systemctl enable xrdp
+Enable RDP port on firewall
+  sudo ufw allow 3389/tcp
